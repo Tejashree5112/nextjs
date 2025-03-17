@@ -19,14 +19,14 @@ export default function Header() {
             >
               <Image
                 src='/icons/logo.svg'
-                width={40}
-                height={40}
+                width={70}
+                height={70}
                 alt={`${APP_NAME} logo`}
               />
               {APP_NAME}
             </Link>
           </div>
-          <div className='hidden md:black flex-1 max-w-xl'>
+          <div className='md:black flex-1 max-w-xl'>
             <Search />
           </div>
           <Menu />

@@ -1,3 +1,4 @@
+"use "
 import { SearchIcon } from "lucide-react";
 import {Input} from "../../../components/ui/input"
 import { APP_NAME } from "@/lib/constants";
