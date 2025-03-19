@@ -37,14 +37,14 @@ const data ={
         {
             title:'Most Popular Shoes for Sale',
             buttonCaption:'Shop Now',
-            image:'/images/banner3.jpeg',
+            image:'/images/banner3.jpg',
             url: '/search?category=Shoes',
             isPublished: true,
         },
         {
             title:'Best Sellers in T-shirts',
             buttonCaption:'Shop Now',
-            image:'/images/banner1.jpeg',
+            image:'/images/banner1.jpg',
             url: '/search?category=T-Shirts',
             isPublished: true,
         },

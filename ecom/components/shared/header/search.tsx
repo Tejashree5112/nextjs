@@ -1,9 +1,11 @@
+"use client"
+
 import { SearchIcon } from "lucide-react";
 import {Input} from "../../../components/ui/input"
 import { APP_NAME } from "@/lib/constants";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@radix-ui/react-select";
 const categories = ['men', 'women', 'kids', 'accessories']
-export default async function Search(){
+export default function Search(){
     return(
         <form action='/search' method="GET" className="flex itmes-stretch h-10">
             <Select name="category">
